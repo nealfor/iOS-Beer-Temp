@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface tempCheckViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *tempLabel;
+
+
+- (IBAction)pushButton:(id)sender;
 
 @end
